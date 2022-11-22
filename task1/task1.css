@@ -1,0 +1,15 @@
+.boxes{
+    width: 70%;
+    margin: 0 auto;
+}
+.box{
+    background-color: yellow;
+    width: 31%;
+    border-radius: 10px;
+    float: left;
+    margin: 1%;
+    padding-top: 30%;
+    padding-bottom: 1%;
+    /* height: 22vw; */
+}
+
