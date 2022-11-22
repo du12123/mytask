@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text4</title>
+    <link rel="stylesheet" href="./task4.css">
+</head>
+<body>
+    <div class="header">
+        <div>
+            <a href="#">关闭</a>
+        </div>
+        <div>
+            <h2>登陆</h2>
+        </div>
+        <div>
+            <a href="#">注册</a>
+        </div>
+    </div>
+    <form action="#">
+        <div class="text">
+            <div class="content">
+                <img src="./iphone.png" alt="iphone">
+            </div>
+            <input type="text" name="text" id="text" placeholder="  请输入手机号" oninput="value=value.replace(/[^0-9]/g,'')" maxlength="11" >
+        </div>
+        <div class="text">
+            <div class="content">
+                <img src="./locked.png" alt="locked" >
+            </div>
+            <input type="password" name="password" id="password" placeholder="  请输入密码">
+        </div>
+        <input type="submit" name="submit" id="submit" value="登  陆">
+    </form>
+    <div class="tail">
+        <p>
+            <a href="#">忘记密码？</a>
+        </p>
+    </div>
+</body>
+</html>
