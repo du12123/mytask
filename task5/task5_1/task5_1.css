@@ -114,11 +114,13 @@ header img{
 .price .words{
     color: var(--red);
 }
+/* footer */
 footer{
     position: fixed;
     bottom: 0;
     width: 100%;
     background-color: white;
+    font-size: 16px;
     /* 法1 弹性盒子*/
     /* display: flex;
     justify-content: space-evenly;
@@ -127,7 +129,7 @@ footer{
 }
 footer div{
     border: 2px solid var(--blue);
-    width: 45%;
+    width: 40%;
     border-radius: 4px;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -151,4 +153,7 @@ a{
     background-color: var(--blue);
     float: right;
     margin: 10px 20px 10px 0;
+}
+main{
+    padding-bottom: 65px;
 }

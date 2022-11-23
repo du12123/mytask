@@ -125,3 +125,6 @@ footer img{
 .my{
     color: var(--gray)
 }
+main{
+    padding-bottom: 50px;
+}
